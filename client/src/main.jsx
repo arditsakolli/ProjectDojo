@@ -6,11 +6,14 @@ import './index.css'
 // import 'bootstrap-icons/font/bootstrap-icons.css';
 // src/main.jsx or src/index.jsx
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { BrowserRouter } from 'react-router-dom';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+   
     <App />
+
+   
   </React.StrictMode>,
 )
